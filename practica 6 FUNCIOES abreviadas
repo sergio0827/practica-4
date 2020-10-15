@@ -1,0 +1,17 @@
+void main(List<String> arguments) {
+  abreviada();
+}
+
+void abreviada(){
+  
+  print ( suma(15,19));
+  print ( suma(2.5, 3.5));
+  print ( suma(5, 3.5));
+  
+  //print suma ('utp', 2020));
+  
+  print ( suma('hola', 'mundo'));
+  
+ 
+  }
+    dynamic suma (var n1, var n2) => n1 + n2;
